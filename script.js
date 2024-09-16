@@ -29,7 +29,6 @@ function drawFood (){
     context.fillRect(food.x, food.y, box, box);
 }
 
-//quando um evento acontece, detecta e chama uma função
 document.addEventListener('keydown', update);
 
 function update(event){
